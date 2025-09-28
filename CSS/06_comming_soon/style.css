@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: rgba(7, 4, 4, 0.884);
+}
+.container {
+  background: linear-gradient(135deg, #0f32cb, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100%;
+}
+.content {
+  text-align: center;
+  background-color: rgba(247, 240, 240, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.logo {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+}
+h1 {
+  color: #c60606;
+  margin-bottom: 20px;
+}
+p {
+  color: black;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="email"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 0.5rem;
+  background-color: #0f32cb;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* box-shadow: #07020d; */
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1b8344;
+}
